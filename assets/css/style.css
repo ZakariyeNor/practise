@@ -104,3 +104,33 @@ footer {
     list-style-type: none;
     padding: 20px 0;
 }
+
+/* Media query: laptop and larger (768px and up) */
+@media screen and (min-width:768px) {
+    nav {
+       display: block;
+       box-shadow: none;
+       position: relative;
+       padding-right: 1em;
+       width: fit-content;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu li {
+        padding-left: 1em;
+    } 
+
+    .drop-down-menu {
+        display: none;
+    }
+}
+
+/* Media query: desktops and larger */
+@media screen  and (min-width:992px) {
+    #menu a:hover {
+        border-bottom: 1px solid red;
+    }
+}
