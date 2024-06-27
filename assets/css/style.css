@@ -1,0 +1,42 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* Wildcard selector (add asterisk to override default styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Header */
+header {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    background-color: rgb(60, 145, 159);
+    box-shadow: 0 2px 2px red;
+}
+header a {
+    text-decoration: none;
+    font-family: 'lato', sans-serif;
+}
+h1 {
+    font-family: 'lato', sans-serif;
+    font: 40px;
+    color: #ffffff;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* main content */
+main {
+    background-color: rgb(175, 164, 164);
+    flex: 1 0 auto;
+    margin-top: 39px;
+}
+
+/* footer */
+footer {
+    background-color: brown;
+}
